@@ -18,12 +18,19 @@
 <body>
     <div class="container pt-5">
         <div class="row">
-            <div class="col-sm-6 mx-auto">
+            <div class="col-sm-6 mx-auto card p-2">
+            <div class="d-flex justify-content-between">
                 <h3 class="my-auto">
                     KEV GPT
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png"
                         height="20" alt="" srcset="">
                 </h3>
+
+                <select name="" id="langue" class="lang">
+                    <option value="Français">Fr</option>
+                    <option value="Englais">En</option>
+                </select>
+                </div>
                 <br>
                 <p class="small">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, reiciendis aliquid voluptas debitis
@@ -42,7 +49,6 @@
                     <img src="google-gemini-icon.webp" height="20" alt="" srcset="">
                     Generate response
                 </button>
-                <br><br>
                 <script src="script.js"></script>
             </div>
         </div>
