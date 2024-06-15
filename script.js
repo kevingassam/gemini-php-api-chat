@@ -9,7 +9,7 @@ function generateResponse() {
   fetch("response.php", {
     method: "post",
     body: JSON.stringify({
-      text: text.value+" . Répond unqiuement en "+langue,
+      text: text.value+" . Répond unqiuement en "+langue+ " et soit bref er précis !",
     }),
   })
     .then((res) => res.text())

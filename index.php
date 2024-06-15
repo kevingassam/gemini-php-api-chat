@@ -11,7 +11,7 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="google-gemini-icon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="img/google-gemini-icon.webp" type="image/x-icon">
     <title>KEV GPT</title>
 </head>
 
@@ -19,17 +19,17 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-sm-6 mx-auto card p-2">
-            <div class="d-flex justify-content-between">
-                <h3 class="my-auto">
-                    KEV GPT
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png"
-                        height="20" alt="" srcset="">
-                </h3>
+                <div class="d-flex justify-content-between">
+                    <h3 class="my-auto">
+                        KEV GPT
+                        <img src="img/Google_Gemini_logo.svg.png"
+                            height="20" alt="" srcset="">
+                    </h3>
 
-                <select name="" id="langue" class="lang">
-                    <option value="Français">Fr</option>
-                    <option value="Englais">En</option>
-                </select>
+                    <select name="" id="langue" class="lang">
+                        <option value="Français">Fr</option>
+                        <option value="Englais">En</option>
+                    </select>
                 </div>
                 <br>
                 <p class="small">
@@ -38,18 +38,21 @@
                     reprehenderit fugiat sapiente beatae perferendis.
                 </p>
                 <div class="response-main-div">
-                <div id="response"></div>
-                <div class="text-center p-5" id="loading">
-                    <img src="kOnzy.gif" height="20" width="20" alt="" srcset="">
-                </div>
+                    <div id="response"></div>
+                    <div class="text-center p-5" id="loading">
+                        <img src="kOnzy.gif" height="20" width="20" alt="" srcset="">
+                    </div>
                 </div>
                 <br>
                 <textarea id="text" class="form-control" placeholder="Veuillez taper du texte"></textarea>
                 <button onclick="generateResponse()" class="btn w-100 btn-perso mt-2">
-                    <img src="google-gemini-icon.webp" height="20" alt="" srcset="">
+                    <img src="img/google-gemini-icon.webp" height="20" alt="" srcset="">
                     Generate response
                 </button>
                 <script src="script.js"></script>
+            </div>
+            <div class="p-2 text-center small auteur">
+                <i>By Kevin Gassam</i>
             </div>
         </div>
     </div>
