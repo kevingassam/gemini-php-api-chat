@@ -2,6 +2,8 @@
 
 Ce script utilise l'API de Google Gemini.
 
+![Logo](img/gemini.png)
+
 ## Instructions d'installation
 
 ### Prérequis
